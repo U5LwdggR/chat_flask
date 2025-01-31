@@ -1,0 +1,4 @@
+pyrebase
+pipenv
+jinja2
+flask
