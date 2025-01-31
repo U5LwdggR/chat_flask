@@ -144,4 +144,4 @@ def affiche_chat(receiver_id):
 
 
 if __name__ == '__main__':
-    socketio.run(app)
+    app.run(debug=True)
