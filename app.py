@@ -2,7 +2,7 @@
 from flask import Flask,render_template,request,redirect,url_for,flash,session
 import firebase_admin
 from firebase_admin import credentials, firestore
-from flask_socketio import SocketIO, emit
+#from flask_socketio import SocketIO, emit
 from datetime import datetime
 # pylint: disable=missing-docstring
 import pyrebase
@@ -28,7 +28,7 @@ current_time = datetime.utcnow()
 #init de la variable qui va recevoir l'id du
 # recepteur = 0
 # Charger la clé JSON
-cred = credentials.Certificate("C:/Users/Darel/Downloads/chat-flask-bd-firebase-adminsdk-fbsvc-b3d40c5a4e.json")
+cred = credentials.Certificate("cle.json")
 firebase_admin.initialize_app(cred)
 
 # Initialiser Firestore
