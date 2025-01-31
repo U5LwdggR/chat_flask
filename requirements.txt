@@ -2,3 +2,4 @@ pyrebase
 pipenv
 jinja2
 flask
+firebase-admin
