@@ -1,5 +1,5 @@
-pyrebase
-pipenv
+pyrebase4
 jinja2
 flask
 firebase-admin
+flask_socketio
