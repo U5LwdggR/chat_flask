@@ -1,3 +1,0 @@
-pyrebase
-pipenv
-jinja2
